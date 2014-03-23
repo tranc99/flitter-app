@@ -1,0 +1,1 @@
+A rails app in the style of Michael Hartl's Twitter demo
