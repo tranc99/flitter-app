@@ -6,6 +6,7 @@ class StaticPagesController < ApplicationController
   end
   
   def about
+  	puts "huh"
   end
   
   def contact
