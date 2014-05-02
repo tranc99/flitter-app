@@ -65,6 +65,16 @@ describe "Authentication" do
         end
       end
 
+      
+      describe "in the Microposts controllers" do
+        
+        describe "submitting to the create action" do
+          before { post microposts_path }
+          specify { expect(response).to redirect_to(signin_path) }
+        end
+      end
+      
+      
       describe "in the Users controller" do
 
         describe "visiting the edit page" do
